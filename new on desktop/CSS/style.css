@@ -1,0 +1,16 @@
+body{box-sizing: border-box; height: 100%; margin: 0; padding: 0; width: 100%; height: 100%;  }
+header{display: flex; flex-wrap: wrap;}
+header>*{width: 50%; }
+div.des{ flex: 1; text-align: center; }
+ol {display: flex; gap: 100px; justify-content: center;}
+li{list-style: none;}
+main{display: grid;  grid-template-columns: repeat(3,3fr); height:50vh ;}
+div.ome{display: grid;  }
+div.ome >*{border: 0.5px solid black; text-align: center ; } 
+div.two{display:  grid; text-align: center;}
+div.two>*{border: 0.5px solid black;}
+div.three{border:  0.5px solid black;}
+div.three ul li{margin-bottom: 15px; }
+label{display: grid; grid-template-columns: repeat(3,20.9%);  justify-content: space-evenly; }
+textarea{ border-radius: auto; }
+p.registerr{text-align: center;}
